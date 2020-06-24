@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  
+  <category>
+    <pattern>*</pattern>
+    <template>
+        Não entendi o que você disse, poderia repetir, por favor?
+    </template>
+  </category>
+  
+  <category>
+      <pattern>SAIR</pattern>
+      <template>
+          <random>
+              <li>Volte sempre!</li>
+              <li>Até logo!</li>
+              <li>Adeus, volte sempre.</li>
+              <li>Que pena, xau!</li>
+          </random>
+      </template>
+  </category>
+ 
+</aiml>
